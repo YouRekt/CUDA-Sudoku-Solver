@@ -258,7 +258,7 @@ __global__ void BFS(int* BFSearchedBoards, int startIndex, int cutoffIndex, int*
 int main() {
 	int* h_board = new int[BOARD_SIZE];
 
-	std::ifstream in("hard.txt");
+	std::ifstream in("easy.txt");
 	char c;
 	int i = 0;
 	while (in >> c && i < BOARD_SIZE) {
